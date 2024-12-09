@@ -1,0 +1,21 @@
+html {
+    width: 100%;
+}
+
+.navbar {
+    background: linear-gradient(300deg, #27642f, #1b4420, #399a45);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #399a45, #1b4420, #27642f);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    }
+
+    @keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+    }
